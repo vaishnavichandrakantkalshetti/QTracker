@@ -1,0 +1,61 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.main-container
+{
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	top: 0px;
+	background-image: url("https://cdn.pixabay.com/photo/2016/03/26/22/21/books-1281581_1280.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.login-form
+{
+	height: 500px;
+	width: 500px;
+	padding: 30px;
+	position: absolute;
+	background: transparent;
+	backdrop-filter: blur(7px);
+	border-radius: 50px;
+	top: 25%;
+	right: 350px;
+	box-shadow: -5px -5px 20px whitesmoke;
+}
+
+input
+ {
+ 	width: 90%;
+ 	margin-top: 20px;
+ 	height: 60px;
+ 	border: none;
+ 	outline: none;
+ 	background-color: transparent;
+ 	border-bottom: 3px solid white;
+ 	color: white;
+ 	font-size: 20px;
+ 	padding: 20px;
+ }
+
+ .lgn
+ {
+ 	font-family: Arial Black;
+ 	color: midnightblue;
+ }
+
+ .lgnbtn
+ {
+ 	border: none;
+ 	background-color: midnightblue;
+ 	height: 70px;
+ 	border-radius:15px ;
+ 	font-size: 25px;
+ 	line-height: 30px;
+ 	font-family:Arial Black;
+  }
